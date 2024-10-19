@@ -1,12 +1,14 @@
-# Hadoop MapReduce
+# Hadoop MapReduce Spark
 
-Studies based in day 71-72 of 100 Days System Design for DevOps and Cloud Engineers.
+Studies based in day 71-72 and 79-80 of 100 Days System Design for DevOps and Cloud Engineers.
 
 https://deoshankar.medium.com/100-days-system-design-for-devops-and-cloud-engineers-18af7a80bc6f
 
 Days 71–80: High-Performance Computing (HPC) and Data Processing
 
 Day 71–72: Set up a Hadoop cluster and perform data processing with Hadoop MapReduce.
+
+Day 79–80: Optimize a Spark cluster for large-scale data processing.
 
 ## Project Overview
 
