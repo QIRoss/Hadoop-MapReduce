@@ -12,11 +12,24 @@ Day 79–80: Optimize a Spark cluster for large-scale data processing.
 
 ## Project Overview
 
-This study follow some tutorials to learn more about Hadoop ecosystem.
+This study follow a [Setting up Hadoop with Docker and using MapReduce framework][3] tutorial to learn more about Hadoop ecosystem
 
-I'll link the tutorials here as submodules so you can follow them too.
+### How to Use ```spark-basic-cluster```:
 
-[Setting up Hadoop with Docker and using MapReduce framework][3]
+```
+docker-compose up -d
+docker cp ./spark_streaming.py spark-master:/spark_streaming.py
+sudo apt-get install netcat
+```
+
+Mock streaming
+```
+nc -lk 9999
+```
+
+```
+docker exec -it spark-master /spark/bin/spark-submit /spark_streaming.py
+```
 
 ## Author
 This project was implemented by [Lucas de Queiroz dos Reis][2]. It is based on the [100 Days System Design for DevOps and Cloud Engineers][1].
